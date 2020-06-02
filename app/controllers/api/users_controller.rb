@@ -35,9 +35,3 @@ class Api::UsersController < ApplicationController
       )
     end
 end
-
-t.string :firstname,        null: false
-      t.string :lastname,         null: false
-      t.date :birthmonth,         null: false
-      t.date :birthday,           null: false
-      t.string :nickname,         null: false
