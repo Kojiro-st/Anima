@@ -7,7 +7,7 @@
     </ul>
     <nav>
       <div class="nav-wrapper container">
-        <a href="/" class="brand-logo left">Todo Application</a>
+        <a href="/" class="brand-logo left">Anima</a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#">Top</a></li>
           <li><a href="#">About</a></li>

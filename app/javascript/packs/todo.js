@@ -3,7 +3,7 @@ import Header from './components/header.vue'
 
 var app = new Vue({
   el: '#app',
-  components: {
+    components: {
     'navbar': Header,
   }
 });
