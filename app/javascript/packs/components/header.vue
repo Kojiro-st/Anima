@@ -1,17 +1,11 @@
 <template>
   <div>
-    <ul id="dropdown" class="dropdown-content">
-      <li><a href="#">Top</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <nav>
+    <nav class="black">
       <div class="nav-wrapper container">
-        <a href="/" class="brand-logo left">Anima</a>
+        <a href="/" class="brand-logo left"><i class="material-icons">all_inclusive</i>Anima</a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Top</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Premium</a></li>
+          <li><a href="#">Sign up  or  Login</a></li>
         </ul>
         <ul class="right hide-on-large-only">
           <li>
