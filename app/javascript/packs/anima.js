@@ -7,10 +7,3 @@ var app = new Vue({
     'navbar': Header,
   }
 });
-
-var app = new Vue({
-  el: '#app',
-  components: {
-    'navbar': Body,
-  }
-});
