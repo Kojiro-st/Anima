@@ -18,3 +18,9 @@
     </nav>
   </div>
 </template>
+
+<style scoped>
+  div{
+    color:aqua;
+  }
+</style>
