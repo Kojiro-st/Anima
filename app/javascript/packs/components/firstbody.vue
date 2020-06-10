@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="">
+    <div class="top">
       <h1>充実のプレリスト</h1>
       <p>プレイリストの数はなんと30億以上！</p><br>
       <p>ジャンルや気分、アーティスト別のメニューから聴きたい曲をすぐに見つけられる。</p><br>
@@ -41,13 +41,15 @@
 
 <script>
 export default {
-  data(){
-    return {
-    };
-  }
+  // data(){
+  //   return {
+  //   };
+  // }
 };
 </script>
 
 <style scoped>
-
+  div{
+    color:aqua;
+  }
 </style>
