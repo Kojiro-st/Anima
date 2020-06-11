@@ -1,52 +1,20 @@
 <template>
   <div>
     <div class="card">
-      <div class="card-image"></div>
-      <div class="card-content">
-        <h1 class="">充実のプレリスト</h1>
-        <p>プレイリストの数はなんと30億以上！</p><br>
-        <p>ジャンルや気分、アーティスト別のメニューから聴きたい曲をすぐに見つけられる。</p><br>
-        <p>オリジナルプレイリストを作るのも簡単。</p>
-      </div>
-      <div class="">
-        <button>オススメを見る</button>
-        <button>今すぐ登録する</button>
+      <!-- <div class="card-image"> -->
+      <div class="blue-grey darken-1">
+        <!-- <img src="app/assets/images/firstanima.jpg"> -->
+        <div class="card-content">
+          <h1 class="">充実のプレリスト</h1>
+          <p>プレイリストの数はなんと30億以上！</p><br>
+          <p>ジャンルや気分、アーティスト別のメニューから聴きたい曲をすぐに見つけられる。</p><br>
+          <p>オリジナルプレイリストを作るのも簡単。</p>
+        </div>
+        <div class="">
+          <button>オススメを見る</button>
+          <button>今すぐ登録する</button>
+        </div>
       </div>
     </div>
   </div>
 </template>
-
-
-
-// <h1>Animaで楽しもう</h1>
-// <p>配信曲数は5000万曲以上。</p><br>
-// <p>誰にでもぴったりな音楽の楽しみ方がある。</p><br>
-// <p>無料でも全曲フルアクセス・フル尺再生。</p>
-// <div class="">
-//   <button>オススメを見る</button>
-//   <button>今すぐ登録する</button>
-// </div>
-
-// <h1>新しい音楽との出会い</h1>
-// <p>世界中から集めたジャンルを問わない多彩な音楽を5000万曲以上配信。</p><br>
-// <p>毎日更新されるプレイリストで見つかる新しい大好きな音楽との出会い。</p><br>
-// <p>ユーザーひとりひとりが楽しめる専用のラジオ番組も充実。</p>
-// <div class="">
-//   <button>オススメを見る</button>
-//   <button>今すぐ登録する</button>
-// </div>
-
-// プレイリストの数はなんと30億以上！
-// ジャンルや気分、アーティスト別のメニューから聴きたい曲をすぐに見つけられる。
-// オリジナルプレイリストを作るのも簡単。
-
-
-
-<script>
-export default {
-  // data(){
-  //   return {
-  //   };
-  // }
-};
-</script>
