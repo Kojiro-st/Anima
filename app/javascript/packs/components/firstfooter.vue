@@ -3,28 +3,32 @@
       <div class="footer-in">
       <div class="bottom-top">
         <div class="bottom-top-left">
-          <i class="fab fa-spotify text-white"><span>Anima</span></i>
+          <div class="bottom-top-left1">
+            <i class="fab fa-spotify text-white title"><span>Anima</span></i>
+          </div>
+          <div class="bottom-top-left2">
+            <ul class="list">
+              <li class="text-muted chil1">会社情報</li>
+              <li class="chil1"><span><a href="#" class="text-white">企業情報</a></span></li>
+              <li class="chil1"><span><a href="#" class="text-white">採用情報</a></span></li>
+              <li class="chil1"><span><a href="#" class="text-white">for the record</a></span></li>
+            </ul>
+          </div>
         </div>
         <div class="bottom-top-right">
-          <p class="text-muted">会社情報</p>
-          <ul>
-            <li><span><a href="#" class="text-white">企業情報</a></span></li>
-            <li><span><a href="#" class="text-white">採用情報</a></span></li>
-            <li><span><a href="#" class="text-white">for the record</a></span></li>
-          </ul>
-          <ul>
-            <li><i class="fab fa-instagram text-white"></i></li>
-            <li><span><i class="fab fa-twitter text-white"></i></span></li>
-            <li><i class="fab fa-facebook-f text-white"></i></li>
+          <ul class="list list2">
+            <li><i class="fab fa-instagram text-white rounded-circle"></i></li>
+            <li><i class="fab fa-twitter text-white rounded-circle"></i></li>
+            <li><i class="fab fa-facebook-f text-white rounded-circle"></i></li>
           </ul>
         </div>
       </div>
       <div class="bottom-bottom">
         <div class="bottom-bottom-left">
-          <ul>
-            <li><span><a href="#" class="text-white">法的情報</a></span></li>
-            <li><span><a href="#" class="text-white">Cookie</a></span></li>
-            <li><span><a href="#" class="text-white">プライバシー</a></span></li>
+          <ul class="list list3">
+            <li><span><a href="#" class="text-muted chil3">法的情報</a></span></li>
+            <li><span><a href="#" class="text-muted chil3">Cookie</a></span></li>
+            <li><span><a href="#" class="text-muted chil3">プライバシー</a></span></li>
           </ul>
         </div>
         <div class="bottom-bottom-right">
@@ -38,6 +42,13 @@
 <style scoped>
 .footer{
   background-color: black;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.list{
+  list-style: none;
+  text-decoration: none;
 }
 
 .footer-in{
@@ -45,7 +56,59 @@
   margin: 0 auto;
 }
 
+.title{
+  font-size: 25px;
+}
+
 .bottom-top-left{
-  font-size: 25px
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  float: left;
+}
+
+.bottom-top-right{
+  float: right;
+}
+
+.list2{
+  display: flex;
+}
+
+.fa-instagram{
+  padding-right: 20px;
+  background-color: red;
+}
+
+.fa-twitter{
+  padding-right: 20px;
+  background-color: #222326;
+}
+
+.fa-facebook-f{
+  background-color: #222326;
+}
+
+.bottom-bottom{
+  padding-top: 200px;
+  padding-bottom: 50px
+}
+
+.chil1{
+  padding-bottom: 15px;
+}
+
+.list3{
+  display: flex;
+  float: left;
+}
+
+.chil3{
+  padding-right: 20px;
+  font-size: 13px;
+}
+
+.bottom-bottom-right{
+  float: right;
 }
 </style>
