@@ -17,9 +17,9 @@
         </div>
         <div class="bottom-top-right">
           <ul class="list list2">
-            <li><i class="fab fa-instagram text-white rounded-circle"></i></li>
-            <li><i class="fab fa-twitter text-white rounded-circle"></i></li>
-            <li><i class="fab fa-facebook-f text-white rounded-circle"></i></li>
+            <li><i class="fab fa-instagram text-white"></i></li>
+            <li><i class="fab fa-twitter text-white"></i></li>
+            <li><i class="fab fa-facebook-f text-white"></i></li>
           </ul>
         </div>
       </div>
@@ -76,17 +76,18 @@
 }
 
 .fa-instagram{
-  padding-right: 20px;
-  background-color: red;
+  padding-right: 40px;
+  font-size: 35px;
 }
 
 .fa-twitter{
-  padding-right: 20px;
-  background-color: #222326;
+  padding-right: 40px;
+  font-size: 35px;
 }
 
 .fa-facebook-f{
-  background-color: #222326;
+  padding-right: 40px;
+  font-size: 35px;
 }
 
 .bottom-bottom{
