@@ -1,10 +1,8 @@
 <template>
-  <div>
-    <div class="card">
-      <!-- <div class="card-image"> -->
-      <div class="blue-grey darken-1">
-        <!-- <img src="app/assets/images/firstanima.jpg"> -->
-        <div class="card-content">
+  <div class="contaier">
+    <div class="ele1">
+      <div class="ele1-in">
+        <div class="content1">
           <h1 class="">充実のプレリスト</h1>
           <p>プレイリストの数はなんと30億以上！</p><br>
           <p>ジャンルや気分、アーティスト別のメニューから聴きたい曲をすぐに見つけられる。</p><br>
@@ -18,3 +16,16 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.ele1{
+  /* background-image: url("../images/firstanima.jpg"); */
+  height: 500px;
+}
+
+.ele1-in{
+  margin: 0 auto;
+  width: 90%;
+  padding: 100px 0;
+}
+</style>
