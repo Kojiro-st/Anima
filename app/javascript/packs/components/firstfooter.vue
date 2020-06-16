@@ -4,35 +4,35 @@
       <div class="bottom-top">
         <div class="bottom-top-left">
           <div class="bottom-top-left1">
-            <i class="fab fa-spotify text-white title"><span>Anima</span></i>
+            <i class="fab fa-spotify"><span>Anima</span></i>
           </div>
           <div class="bottom-top-left2">
             <ul class="list">
-              <li class="text-muted chil1">会社情報</li>
-              <li class="chil1"><span><a href="#" class="text-white">企業情報</a></span></li>
-              <li class="chil1"><span><a href="#" class="text-white">採用情報</a></span></li>
-              <li class="chil1"><span><a href="#" class="text-white">for the record</a></span></li>
+              <li class="chil1">会社情報</li>
+              <li class="chil1"><span><a href="#" class="chil1">企業情報</a></span></li>
+              <li class="chil1"><span><a href="#" class="chil1">採用情報</a></span></li>
+              <li class="chil1"><span><a href="#" class="chil1">for the record</a></span></li>
             </ul>
           </div>
         </div>
         <div class="bottom-top-right">
           <ul class="list list2">
-            <li><i class="fab fa-instagram text-white"></i></li>
-            <li><i class="fab fa-twitter text-white"></i></li>
-            <li><i class="fab fa-facebook-f text-white"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-facebook-f"></i></li>
           </ul>
         </div>
       </div>
       <div class="bottom-bottom">
         <div class="bottom-bottom-left">
           <ul class="list list3">
-            <li><span><a href="#" class="text-muted chil3">法的情報</a></span></li>
-            <li><span><a href="#" class="text-muted chil3">Cookie</a></span></li>
-            <li><span><a href="#" class="text-muted chil3">プライバシー</a></span></li>
+            <li><span><a href="#" class="chil3">法的情報</a></span></li>
+            <li><span><a href="#" class="chil3">Cookie</a></span></li>
+            <li><span><a href="#" class="chil3">プライバシー</a></span></li>
           </ul>
         </div>
         <div class="bottom-bottom-right">
-          <p class="text-white">© 2020 Anima AB</p>
+          <p>© 2020 Anima AB</p>
         </div>
       </div>
     </div>
@@ -44,6 +44,7 @@
   background-color: black;
   padding-top: 60px;
   padding-bottom: 20px;
+  color: white;
 }
 
 .list{
@@ -91,12 +92,15 @@
 }
 
 .bottom-bottom{
-  padding-top: 200px;
+  padding-top: 240px;
   padding-bottom: 50px
 }
 
 .chil1{
   padding-bottom: 15px;
+  display: block;
+  color: white;
+  text-decoration: none;
 }
 
 .list3{
@@ -107,6 +111,9 @@
 .chil3{
   padding-right: 20px;
   font-size: 13px;
+  display: block;
+  color: white;
+  text-decoration: none;
 }
 
 .bottom-bottom-right{
