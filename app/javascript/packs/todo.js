@@ -3,6 +3,7 @@ import Vue from 'vue/dist/vue.esm.js';
 import Header from './components/header.vue';
 import Firstbody from './components/firstbody.vue';
 import Firstfooter from './components/firstfooter.vue';
+import '@fortawesome/fontawesome-free/css/all.css'
 
 Vue.component("Firstbody",Firstbody);
 Vue.component("Firstfooter",Firstfooter );

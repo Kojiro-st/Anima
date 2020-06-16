@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header-left">
-      <p class="anima">Anima</p>
+      <i class="fab fa-spotify"><span class="anima">Anima</span></i>
     </div>
     <div class="header-right">
       <a href="#" class="premium">Premium</a>
