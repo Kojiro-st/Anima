@@ -9,6 +9,7 @@ Vue.component("Firstbody",Firstbody);
 Vue.component("Firstfooter",Firstfooter );
 Vue.use(Vuetify)
 
+
 var app = new Vue({
   el: '#app',
   components: {
