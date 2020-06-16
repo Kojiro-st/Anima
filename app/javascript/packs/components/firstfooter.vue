@@ -8,7 +8,7 @@
           </div>
           <div class="bottom-top-left2">
             <ul class="list">
-              <li class="chil1">会社情報</li>
+              <li class="chil1 parent">会社情報</li>
               <li class="chil1"><span><a href="#" class="chil1">企業情報</a></span></li>
               <li class="chil1"><span><a href="#" class="chil1">採用情報</a></span></li>
               <li class="chil1"><span><a href="#" class="chil1">for the record</a></span></li>
@@ -101,6 +101,11 @@
   display: block;
   color: white;
   text-decoration: none;
+}
+
+.parent{
+  color: gray;
+  font-size: 13px
 }
 
 .list3{

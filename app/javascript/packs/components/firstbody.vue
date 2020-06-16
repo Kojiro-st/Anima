@@ -8,10 +8,11 @@
           <p>ジャンルや気分、アーティスト別のメニューから聴きたい曲をすぐに見つけられる。</p><br>
           <p>オリジナルプレイリストを作るのも簡単。</p>
         </div>
-        <div class="">
-          <button>オススメを見る</button>
-          <button>今すぐ登録する</button>
+        <!-- <div class=""> -->
+        <div class="text-center">
+          <v-btn rounded color="primary" dark>オススメを見る</v-btn>
         </div>
+        <!-- </div> -->
       </div>
     </div>
   </div>
