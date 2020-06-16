@@ -1,10 +1,12 @@
 import Vue from 'vue/dist/vue.esm.js';
+// import Vuetify from 'vuetify/lib'
 import Header from './components/header.vue';
 import Firstbody from './components/firstbody.vue';
 import Firstfooter from './components/firstfooter.vue';
 
 Vue.component("Firstbody",Firstbody);
 Vue.component("Firstfooter",Firstfooter );
+// Vue.use(Vuetify)
 
 var app = new Vue({
   el: '#app',

@@ -1,11 +1,11 @@
 <template>
-  <div class="header text-white">
-    <div class="header-left font-weight-bold">
-      <i class="fab fa-spotify"><span>Anima</span></i>
+  <div class="header">
+    <div class="header-left">
+      <p class="anima">Anima</p>
     </div>
     <div class="header-right">
-      <a href="#" class="text-white premium">Premium</a>
-      <a href="#" class="text-white premium">新規登録・ログイン</a>
+      <a href="#" class="premium">Premium</a>
+      <a href="#" class="premium">新規登録・ログイン</a>
     </div>
   </div>
 </template>
@@ -16,7 +16,8 @@
   display: flex;
   justify-content: space-between;
   padding: 0 100px;
-  background-color:black; 
+  background-color:black;
+  color: white;
 }
 
 .header-left{
@@ -24,12 +25,19 @@
   font-size: 30px;
 }
 
+.anima{
+  margin: 0 0;
+}
+
 .header-right{
   line-height: 80px;
   font-size: 20px;
+  display: flex;
 }
 .premium{
-  padding-right: 20px;
+  margin-right: 40px;
   text-decoration: none;
+  display: block;
+  color: white;
 }
 </style>
